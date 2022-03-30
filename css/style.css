@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif ;
+}
+
+/* classi generali */
+.container{
+   width: 60%;
+   margin: 0 auto;
+   /* debugger */
+   background-color: red;
+   height: 100%;
+}
+
+.nav-six{
+    width: 30%;
+    height: 100%;
+    float: left;
+    /* debugger */
+    background-color: blueviolet;
+    border: solid 1px black;
+}
+
+/* clearfix */
+.row{
+    /* debugger */
+    height: 100%;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;  
+}
+
+/* struttura stile testata */
+
+header{
+    /* debugger */
+    background-color: blue;
+    /* height: 400px; */
+}
+
+.nav_section{
+    /* debugger */
+    width: 100%;
+    height: 50px;
+    border: solid 1px black;
+}
+
+.hero_section{
+    /* debugger */
+    width: 100%;
+    height: 400px;
+    border: solid 1px yellow;
+}
+
+/* struttura del corpo pagina */
+
+.box_content{
+    /* debugger */
+    height: 400px;
+    background-color: yellow;
+}
+
+.col-six{
+    width: 50%;
+    float: left;
+    /* debugger */
+    background-color: aquamarine;
+    height: 100%;
+    border: solid 1px red;
+    
+}
+
+.col-dx{
+    width: 50%;
+    float: left;
+     /* debugger */
+     background-color: aquamarine;
+    height: 100%;
+    border: solid 1px  red;
+}
+
+/* struttura stile footer */
+.footer_list{
+    /* debugger */
+    height: 200px;
+    background-color: chocolate;
+    border: solid 1px black;
+}
+
+
+.footer_sub{
+    /* debugger */
+    height: 200px;
+    background-color: royalblue;
+    border: solid 1px black;
+}
+
+
+
+
+
