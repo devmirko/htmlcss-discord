@@ -26,6 +26,25 @@ a{
     position: relative;
 }
 
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.small{
+    width: 40%;
+}
+
+.big{
+    width: 60%;
+}
+
+.grey{
+    background-color: #F6F6F6;
+}
 
 /* clearfix */
 .row{
@@ -42,9 +61,7 @@ a{
 /* struttura stile testata */
 
 header{
-    /* debugger */
-    /* background-color: blue; */
-    /* height: 500px; */
+  /
    
 }
 
@@ -157,27 +174,34 @@ text-align: center;
 
 .box_content{
     /* debugger */
-    height: 400px;
-    background-color: yellow;
+    /* height: 400px; */
+    margin-top: 40px;
+    
 }
 
 .col-six{
-    width: 50%;
-    float: left;
-    /* debugger */
-    background-color: aquamarine;
+    /* debugger */ 
     height: 100%;
     border: solid 1px red;
+    text-align: center;
     
 }
 
 .col-dx{
-    width: 50%;
-    float: left;
-     /* debugger */
-     background-color: aquamarine;
+     /* debugger */ 
     height: 100%;
     border: solid 1px  red;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.box_title{
+    font-size: 60px;
+}
+
+.box_text{
+    margin-top: 20px;
+    font-size: 30px;
 }
 
 /* struttura stile footer */
