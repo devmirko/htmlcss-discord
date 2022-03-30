@@ -46,10 +46,12 @@ a{
     background-color: #F6F6F6;
 }
 
+
 /* clearfix */
 .row{
     /* debugger */
     height: 100%;
+    text-align: center;
 }
 
 .row::after{
@@ -61,7 +63,7 @@ a{
 /* struttura stile testata */
 
 header{
-  /
+  
    
 }
 
@@ -175,14 +177,14 @@ text-align: center;
 .box_content{
     /* debugger */
     /* height: 400px; */
-    margin-top: 40px;
+  margin: 40px 0;
+  padding: 20px 0;
     
 }
 
 .col-six{
     /* debugger */ 
     height: 100%;
-    border: solid 1px red;
     text-align: center;
     
 }
@@ -190,18 +192,33 @@ text-align: center;
 .col-dx{
      /* debugger */ 
     height: 100%;
-    border: solid 1px  red;
     text-align: center;
     padding: 0 40px;
 }
 
 .box_title{
     font-size: 60px;
+    text-align: center;
 }
 
 .box_text{
     margin-top: 20px;
     font-size: 30px;
+    text-align: center;
+}
+
+#img_1{
+   width: 100%;
+   height: 100%;
+   margin: 0 auto;
+}
+
+#img_2{
+   
+}
+
+h3{
+   margin-bottom: 10px;
 }
 
 /* struttura stile footer */
@@ -219,6 +236,8 @@ text-align: center;
     background-color: royalblue;
     border: solid 1px black;
 }
+
+
 
 
 
