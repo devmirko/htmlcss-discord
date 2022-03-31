@@ -191,9 +191,13 @@ text-align: center;
 }
 
 /* struttura del corpo pagina */
+/* wave */
+.wave{
+    margin-bottom: -10px;
+}
 
 .box_content{
-  margin: 40px 0;
+  /* margin: 40px 0; */
   padding: 40px 0;
     
 }
